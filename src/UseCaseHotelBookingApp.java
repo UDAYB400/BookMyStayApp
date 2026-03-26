@@ -45,7 +45,7 @@ class BookingHistory {
 
 class BookingReportService {
     public void displayAllBookings(List<Reservation> reservations) {
-        System.out.println("Booking History:");
+        System.out.println("Booking History   :");
         for (Reservation r : reservations) {
             System.out.println(r);
         }
